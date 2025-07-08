@@ -1,0 +1,10 @@
+Sample-Discard-Optimization-Classifier/
+├── app/
+│   ├── app.R               # Main Shiny application code (required)
+│   ├── README.md           # Documentation for the app (required)
+│   └── data/               # Sample data (optional)
+│       └── sample_data.xlsx  # Example data file
+├── docs/
+│   ├── screenshots/        # App preview images (optional)
+│   └── demo.gif            # Animated demo (optional)
+├── LICENSE                 # Open-source license (recommended)
