@@ -37,13 +37,20 @@
 
 ## 🔧 Installation & Setup
 
-```bash
-# Clone the repo
-git clone https://github.com/yourusername/sample-type-optimization-classifier.git
-cd sample-type-optimization-classifier
+Installation & Setup Guide
+**1. Prerequisites**
+R (v4.0+)
 
-# Restore package environment
-Rscript -e "install.packages('renv'); renv::restore()"
+RStudio (recommended)
 
-# Launch the app
-Rscript -e "shiny::runApp('app.R')"
+Required R packages:
+r
+install.packages(c("shiny", "readxl", "dplyr", "DT", "openxlsx", "tidyr", "ggplot2", "janitor"))
+
+**2. Installation Methods**
+Method A: Run Directly from GitHub (Quick Start)
+r
+shiny::runGitHub(
+  repo = "Biospecimen-Discard-Optimization-Classifier", 
+  username = "BetsiRosiely",
+  subdir = "app"  # Required because your app.R is inside /app
