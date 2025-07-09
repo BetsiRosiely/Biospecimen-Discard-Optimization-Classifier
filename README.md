@@ -50,7 +50,7 @@ install.packages(c("shiny", "readxl", "dplyr", "DT", "openxlsx", "tidyr", "ggplo
 **2. Installation Methods**
 Method A: Run Directly from GitHub (Quick Start)
 r
-shiny::runGitHub(
-  repo = "Biospecimen-Discard-Optimization-Classifier", 
-  username = "BetsiRosiely",
+shiny::runGitHub(\
+  repo = "Biospecimen-Discard-Optimization-Classifier", \
+  username = "BetsiRosiely",\
   subdir = "app"  # Required because your app.R is inside /app
