@@ -17,7 +17,8 @@
   - Prioritizes specimens without stability flags, shipment history, or adverse comments  
 
 - **Interactive Summaries & Export**  
-  - In-app preview of raw vs. classified data  
+  - In-app preview of raw vs. classified data
+     ![App screenshot](R Shiny_ Data Visualization.PNG)
   - Pivot-style report by sample_type × screen_id × visit_name  
   - Downloadable Excel: full data + summary + instructions + embedded chart  
 
